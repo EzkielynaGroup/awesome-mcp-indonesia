@@ -15,14 +15,12 @@ Daftar kurasi server MCP yang berguna untuk developer dan UMKM Indonesia: data p
 - [Hukum dan Regulasi](#hukum-dan-regulasi)
 - [Pembayaran](#pembayaran)
 - [Marketplace dan E-commerce](#marketplace-dan-e-commerce)
+- [Kalender, Wilayah, dan Utilitas](#kalender-wilayah-dan-utilitas)
 - [AI dan Media](#ai-dan-media)
 - [Registri dan Direktori](#registri-dan-direktori)
 - [Daftar Terkait](#daftar-terkait)
 - [FAQ](#faq)
 
-<!-- NOT YET PUBLIC: when the "Kalender, Wilayah, dan Utilitas" section below is enabled, add this ToC line right after "Marketplace dan E-commerce":
-- [Kalender, Wilayah, dan Utilitas](#kalender-wilayah-dan-utilitas)
--->
 
 ## Panduan Pemasangan
 
@@ -49,9 +47,7 @@ Panduan langkah demi langkah berbahasa Indonesia, dicek terhadap dokumentasi tia
 ## Cuaca dan Kebencanaan
 
 - [bmkg-api](https://github.com/dhanyyudi/bmkg-api) - Server MCP Python (`uvx bmkg-api-mcp`) dan server remote untuk prakiraan cuaca desa, gempa, peringatan dini, dan pencarian wilayah dari data BMKG.
-<!-- NOT YET PUBLIC: enable when public.
 - [mcp-bmkg](https://github.com/EzkielynaGroup/mcp-bmkg) - Server MCP satu file tanpa API key untuk gempa terkini dan prakiraan cuaca tingkat desa dari data terbuka BMKG.
--->
 
 ## Bahasa Indonesia
 
@@ -67,32 +63,26 @@ Panduan langkah demi langkah berbahasa Indonesia, dicek terhadap dokumentasi tia
 
 - [DOKU MCP Server](https://developers.doku.com/accept-payments/doku-mcp-server) - Server MCP remote dari DOKU dengan 30+ alat untuk tautan pembayaran, QRIS, virtual account, e-wallet, dan status transaksi, tersedia sandbox.
 - [mcp-midtrans](https://github.com/rissets/mcp-midtrans) - Server MCP berisi dokumentasi Midtrans (API, metode pembayaran, contoh kode) untuk membantu integrasi, tidak memanggil API Midtrans.
-- [xendit-mcp](https://github.com/mrslbt/xendit-mcp) - Server MCP buatan komunitas untuk invoice, payout, saldo, dan transaksi Xendit, fitur yang memindahkan uang nonaktif secara bawaan.
-<!-- NOT YET PUBLIC: enable when public.
 - [mcp-qris](https://github.com/EzkielynaGroup/mcp-qris) - Server MCP offline untuk membaca, memvalidasi, menambah nominal, dan merender payload QRIS sebagai SVG, tanpa memindahkan uang.
--->
+- [xendit-mcp](https://github.com/mrslbt/xendit-mcp) - Server MCP buatan komunitas untuk invoice, payout, saldo, dan transaksi Xendit, fitur yang memindahkan uang nonaktif secara bawaan.
 
 ## Marketplace dan E-commerce
 
 - [shopee-indonesia-mcp](https://github.com/WilliamAxelC/shopee-indonesia-mcp) - Server MCP dan REST buatan komunitas untuk produk, harga, ulasan, dan flash sale di shopee.co.id, tidak berafiliasi dengan Shopee.
 - [tokopedia-mcp](https://github.com/bintangtimurlangit/tokopedia-mcp) - Server MCP tanpa login untuk mencari produk, filter, ulasan, dan toko di Tokopedia, buatan komunitas dan tunduk pada ketentuan layanan Tokopedia.
 
-<!-- NOT YET PUBLIC: enable this whole section (and its ToC line above) when at least one repo is public; remove lines whose repo is still private.
 ## Kalender, Wilayah, dan Utilitas
 
 - [mcp-hari-libur-indonesia](https://github.com/EzkielynaGroup/mcp-hari-libur-indonesia) - Server MCP offline untuk hari libur nasional dan cuti bersama sesuai SKB 3 Menteri, plus hitung hari kerja.
-- [mcp-rupiah](https://github.com/EzkielynaGroup/mcp-rupiah) - Server MCP untuk utilitas Rupiah. TODO at publish: copy the final one-line description from the repo README.
+- [mcp-rupiah](https://github.com/EzkielynaGroup/mcp-rupiah) - Server MCP offline untuk terbilang, format dan baca nominal Rupiah, serta kalkulator PPN sesuai aturan 2025+.
 - [mcp-wilayah-indonesia](https://github.com/EzkielynaGroup/mcp-wilayah-indonesia) - Server MCP offline untuk kode wilayah Kemendagri dari provinsi sampai desa, tahan salah ketik, dengan kode adm4 BMKG.
--->
 
 ## AI dan Media
 
-- [Ezkielyna Image MCP](https://github.com/EzkielynaGroup/ezkielyna-image-mcp) - Server MCP satu file untuk membuat dan mengedit gambar dari file lokal lewat API Ezkielyna, perlu API key berbayar.
-<!-- NOT YET PUBLIC: enable when public, keep alphabetical order.
 - [AI Model Status MCP](https://github.com/EzkielynaGroup/ai-model-status-mcp) - Server MCP tanpa API key untuk melihat model AI mana yang aktif, cepat, populer, atau berharga rendah dari data publik.
 - [Ezkielyna Audio MCP](https://github.com/EzkielynaGroup/ezkielyna-audio-mcp) - Server MCP untuk teks ke suara dan transkripsi file audio lokal termasuk bahasa Indonesia lewat API Ezkielyna.
+- [Ezkielyna Image MCP](https://github.com/EzkielynaGroup/ezkielyna-image-mcp) - Server MCP satu file untuk membuat dan mengedit gambar dari file lokal lewat API Ezkielyna, perlu API key berbayar.
 - [Ezkielyna MCP](https://github.com/EzkielynaGroup/ezkielyna-mcp) - Server MCP untuk meminta pendapat kedua dari model AI lain, membandingkan jawaban, dan pencarian web lewat API Ezkielyna.
--->
 
 ## Registri dan Direktori
 
@@ -105,9 +95,7 @@ Panduan langkah demi langkah berbahasa Indonesia, dicek terhadap dokumentasi tia
 ## Daftar Terkait
 
 - [Indonesia Government APIs](https://github.com/suryast/indonesia-gov-apis) - Katalog sumber data dan API pemerintah Indonesia beserta catatan akses.
-<!-- NOT YET PUBLIC: enable when public.
 - [Awesome AI Indonesia](https://github.com/EzkielynaGroup/awesome-ai-indonesia#readme) - Sumber daya AI untuk developer dan UMKM Indonesia: model, dataset, regulasi, dan akses API.
--->
 
 ## FAQ
 
